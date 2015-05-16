@@ -1,5 +1,11 @@
 <!DOCTYPE html>
-<body>
+<div id="content" class="container">
+    <header id="content-header">
+        <div id="price-container">
+          <span class="glyphicon glyphicon-tag"></span><span class="price">$4.99</span>
+        </div>
+         <%= image_tag('header-image.jpg', id: 'content-head-img', alt: 'Learn Growth Hacking') %>
+    </header>
     <section id="content-details" class="row clearfix">
         <article id="details-article" class="col-sm-8">
             <h1 id="article-title">Growth Hacking <span class="font-weight-light">Crash Course</span></h1>
@@ -28,9 +34,10 @@
             </ul>
         </aside>
     </section>
+</div>
 <footer id="site-footer">
-Made by <a href="http://onemonth.com" target="_blank">
-<%= image_tag('one-month-logo.svg', id: "one-month-footer-logo", alt: "One Month") %>
+Made by <a href="http://onemonth.com" target="_blank"
+<%= image_tag('one-month-logo.svg', id: 'one-month-footer-logo', alt: 'One Month') %>
 </footer>
 
 <!-- Modal -->
@@ -48,7 +55,8 @@ Made by <a href="http://onemonth.com" target="_blank">
                 </p>
                 <p>Follow me on Twitter <a href="https://twitter.com/mattangriffel" target="_blank">@mattangriffel</a></p>
             </div>
-            	<%= image_tag('teacher-image.jpg', alt: "Mattan Griffel") %>
+            <div id="modal-right" class="pull-right">
+                <%= image_tag('img/teacher-image', id: 'one-month-footer-logo', alt: 'Mattan Griffel') 
             </div>
       </div>
       <div class="modal-footer">
@@ -61,5 +69,3 @@ Made by <a href="http://onemonth.com" target="_blank">
 <!-- Scripts -->
 <script src="http://code.jquery.com/jquery-latest.min.js"></script>
 <script src="js/lib/bootstrap.min.js"></script>
-
-</body>
