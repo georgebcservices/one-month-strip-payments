@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
   root 'pages#home'
+  
   #Support route for charges
   resources :charges
 
