@@ -1,6 +1,10 @@
 Rails.application.configure do
   # Settings specified here will take precedence over those in config/application.rb.
-
+  
+  # Adding SSl usage
+  config.use_ssl = false
+  config.ssl_port = 3001
+  
   # Code is not reloaded between requests.
   config.cache_classes = true
 
