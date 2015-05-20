@@ -4,9 +4,14 @@ class CreateProducts < ActiveRecord::Migration
      t.string :title
      t.string :subtitle
      t.string :author
-     t.text :description
-     t.string :sku
+     t.string :length
+     t.string :author_image_name
      t.decimal :price
+     t.string :sku
+     t.string :download_url
+     t.text :description
+     t.text :author_description
+     t.string :details:
      t.timestamps
    end
  end
