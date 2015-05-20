@@ -6,9 +6,9 @@
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
 growth_hacking = Product.create(title: "Growth Hacking", 
- subtitle: "Crash Course", author: "Mattan Griffel", length: "30 minutes", author_image_name: "teacher-image.jpg", 
- price: "4.99", sku: "GROHACK1", download_url: "https://s3.amazonaws.com/one-month-stripe-payments/Peter+Bell+Resume.pdf", 
- details: "You'll get one video", description: %{<p>A growth hacker is a rare combination: someone with the right marketing and technical skills who can come up with clever marketing hacks and also track their results.</p>
+ subtitle: "Crash Course", author: "Mattan Griffel", length: "Available for 1 day Viewing", author_image_name: "teacher-image.jpg", 
+ price: "4.99", sku: "GROHACK1", download_url: " https://s3.amazonaws.com/one-month-gripe/GBCS_1.jpg ", 
+ details: "After 1 day Viewing you must purchase a new picture", description: %{<p>A growth hacker is a rare combination: someone with the right marketing and technical skills who can come up with clever marketing hacks and also track their results.</p>
 
  <p>In this talk, Mattan Griffel introduces you to the concept of Growth Hacking and shares his favorite tips for getting started as a growth hacker.</p>
  <p><strong>What You'll Learn</strong></p>
@@ -25,9 +25,9 @@ growth_hacking = Product.create(title: "Growth Hacking",
 
 growth_hacking_monthly = Product.create(title: "Growth Hacking Monthly", 
  subtitle: "Ongoing Course", author: "Mattan Griffel", 
- length: "6 months", author_image_name: "teacher-image.jpg", 
- price: "4.99", sku: "GROHACK2", download_url: "https://s3.amazonaws.com/one-month-stripe-payments/Peter+Bell+Resume.pdf", 
- details: "We'll charge you monthly for unlimited access to our mentoring team", description: %{<p>A growth hacker is a rare combination: someone with the right marketing and technical skills who can come up with clever marketing hacks and also track their results.</p>
+ length: "Available for 1 day Viewing ", author_image_name: "teacher-image.jpg", 
+ price: "4.99", sku: "GROHACK2", download_url: " https://s3.amazonaws.com/one-month-gripe/GBCS_1.jpg ", 
+ details: "After 1 day Viewing you must purchase a new picture", description: %{<p>A growth hacker is a rare combination: someone with the right marketing and technical skills who can come up with clever marketing hacks and also track their results.</p>
 
  <p>In this series, Mattan Griffel introduces you to the concept of Growth Hacking and shares his favorite tips for getting started as a growth hacker.</p>
  <p><strong>What You'll Learn</strong></p>
