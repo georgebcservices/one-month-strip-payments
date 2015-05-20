@@ -12,13 +12,7 @@ class CreateProducts < ActiveRecord::Migration
      t.text :description
      t.text :author_description
      t.string :details
-     t.timestamps
-   end
- end
-end
-
-
-      t.timestamps null: false
+     t.timestamps null: false
     end
   end
 end
