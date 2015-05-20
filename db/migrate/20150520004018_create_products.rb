@@ -1,6 +1,6 @@
 class CreateProducts < ActiveRecord::Migration
  def change
-   create_table :products do |t|
+   drop_table :products do |t|
      t.string :title
      t.string :subtitle
      t.string :author
@@ -11,7 +11,8 @@ class CreateProducts < ActiveRecord::Migration
      t.string :download_url
      t.text :description
      t.text :author_description
-     t.string :details:
+     t.string :details
      t.timestamps
    end
  end
+end
