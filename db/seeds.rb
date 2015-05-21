@@ -82,7 +82,7 @@ copywriter_hacking_monthly = Product.create(title: "Copywriter Hacking Monthly",
  </p>
  <p>Follow me on Twitter <a href="https://twitter.com/mattangriffel" target="_blank">@mattangriffel</a></p>})
 
-analytics_monthly = Product.create(title: "Analytics Monthly", 
+analytics_Hacking_monthly = Product.create(title: "Analytics Hacking Monthly", 
  subtitle: "Ongoing Course", 
  author: "Mattan Griffel", 
  author_image_file: "teacher-image.jpg", 

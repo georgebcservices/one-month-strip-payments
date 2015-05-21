@@ -2,16 +2,18 @@ Rails.application.routes.draw do
   devise_for :admin_users, ActiveAdmin::Devise.config
   ActiveAdmin.routes(self)
   root 'pages#home'
+
+
   
   
 
-  # Support route for charges
-  resources :charges, only: [:show]
+  # Support route for charges:
+  resources :charges
 
-  # Route for showing products
-  resources :products, only: [:show]
+  # Route for showing products"
+  resources :products, only: [:index]
 
-  # Route for showing Purchases
+  # Route for showing Purchases:
   resources :purchases, only: [:show]
 
 
