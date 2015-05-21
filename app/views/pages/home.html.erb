@@ -55,7 +55,7 @@ Made by <a href="https://onemonth.com" target="_blank"><%= image_tag( 'one-month
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">
-        <h4 class="modal-title"><span class="glyphicon glyphicon-user"></span>About the Teacher</h4>
+        <h4 class="modal-title"><span class="glyphicon glyphicon-user"></span><%= @product.modal_title %></h4>
       </div>
       <div class="modal-body clearfix">
             <div id="modal-left" class="pull-left">
@@ -63,7 +63,7 @@ Made by <a href="https://onemonth.com" target="_blank"><%= image_tag( 'one-month
                 <p><%= raw @product.author_description %>
             </div>
             <div id="modal-right" class="pull-right">
-                <%= image_tag( '@product.author_image_name' ) %>
+                <%= image_tag( @product.author_image_file, alt: '@product.author' ) %>
             </div>
       </div>
       <div class="modal-footer">
