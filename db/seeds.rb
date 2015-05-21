@@ -24,10 +24,9 @@ growth_hacking = Product.create(title: "Growth Hacking",
  <p>Follow me on Twitter <a href="https://twitter.com/mattangriffel" target="_blank">@mattangriffel</a></p>})
 
 growth_hacking_monthly = Product.create(title: "Growth Hacking Monthly", 
- subtitle: "Ongoing Course", author: "Mattan Griffel", 
- length: "Available for 1 day Viewing ", author_image_name: "teacher-image.jpg", 
- price: "4.99", sku: "GROHACK2", download_url: "https://s3.amazonaws.com/one-month-gripe/GBCS_2.jpg", 
- details: "After 1 day Viewing you must purchase a new picture", description: %{<p>A growth hacker is a rare combination: someone with the right marketing and technical skills who can come up with clever marketing hacks and also track their results.</p>
+ subtitle: "Ongoing Course", author: "Mattan Griffel", author_image_file: "teacher-image.jpg", modal_title: "About the Teacher", length: "Your purchase is available for one month viewing", author_image_name: "teacher-image.jpg", 
+ price: "19.99", sku: "GROHACK2", download_url: "https://s3.amazonaws.com/one-month-gripe/GBCS_1.jpg", 
+ details: "Automatic charges will occur monthly", description: %{<p>A growth hacker is a rare combination: someone with the right marketing and technical skills who can come up with clever marketing hacks and also track their results.</p>
 
  <p>In this series, Mattan Griffel introduces you to the concept of Growth Hacking and shares his favorite tips for getting started as a growth hacker.</p>
  <p><strong>What You'll Learn</strong></p>
