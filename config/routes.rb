@@ -11,7 +11,7 @@ Rails.application.routes.draw do
   resources :charges
 
   # Route for showing products"
-  resources :products, only: [:index]
+  resources :products, only: [:index,:show]
 
   # Route for showing Purchases:
   resources :purchases, only: [:show]
