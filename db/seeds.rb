@@ -6,6 +6,7 @@
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
 growth_hacking = Product.create(title: "Growth Hacking", 
+ product_image: "growth-hacking.png",
  subtitle: "Crash Course", 
  author: "Mattan Griffel", 
  author_image_file: "teacher-image.jpg", 
@@ -33,6 +34,7 @@ growth_hacking = Product.create(title: "Growth Hacking",
 
 
 growth_hacking_monthly = Product.create(title: "Growth Hacking Monthly", 
+ product_image: "growth-hacking-monthly.png",
  subtitle: "Ongoing Course", 
  author: "Mattan Griffel", 
  author_image_file: "teacher-image.jpg", 
@@ -59,6 +61,7 @@ growth_hacking_monthly = Product.create(title: "Growth Hacking Monthly",
  <p>Follow me on Twitter <a href="https://twitter.com/mattangriffel" target="_blank">@mattangriffel</a></p>})
 
 copywriter_hacking_monthly = Product.create(title: "Copywriter Hacking Monthly", 
+ product_image: "copywriter-hacking-monthly.png",
  subtitle: "Ongoing Course", 
  author: "Mattan Griffel", 
  author_image_file: "teacher-image.jpg", 
@@ -84,6 +87,7 @@ copywriter_hacking_monthly = Product.create(title: "Copywriter Hacking Monthly",
 
 analytics_Hacking_monthly = Product.create(title: "Analytics Hacking Monthly", 
  subtitle: "Ongoing Course", 
+ product_image: "analytics-hacking-monthly.png",
  author: "Mattan Griffel", 
  author_image_file: "teacher-image.jpg", 
  modal_title: "About the Teacher", 
