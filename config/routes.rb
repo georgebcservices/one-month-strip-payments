@@ -3,10 +3,6 @@ Rails.application.routes.draw do
   ActiveAdmin.routes(self)
   root 'products#index'
 
-
-  
-  
-
   # Support route for charges:
   resources :charges
 
