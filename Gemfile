@@ -32,7 +32,7 @@ gem 'activeadmin', github: 'activeadmin'
 gem 'devise'
 
 # Bootstrap to improving the look and feel
-gem 'bootstrap-sass', '~> 3.3.4'
+gem 'bootstrap-sass'
 
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
