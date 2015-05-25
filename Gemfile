@@ -16,6 +16,9 @@ gem 'pg', group: :production
 # Add 12 factor for Heroku
 gem 'rails_12factor', group: :production
 
+# Bootstrap to improving the look and feel
+gem 'bootstrap-sass'
+
 # Use Stripe for e-commerce payments
 gem 'stripe', :git => 'https://github.com/stripe/stripe-ruby'
 
@@ -31,12 +34,8 @@ gem 'activeadmin', github: 'activeadmin'
 # Add devise to support login for activeAdmin
 gem 'devise'
 
-# Bootstrap to improving the look and feel
-gem 'bootstrap-sass'
-
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
-
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
 # Use CoffeeScript for .coffee assets and views
