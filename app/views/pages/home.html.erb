@@ -24,9 +24,9 @@
             });
              document.getElementById('btn-buy').addEventListener('click', function(e) {
               handler.open({
-                name: 'One Month',
+                name: 'product.name',
                 description: '<%= @product.title %>  <%= @product.subtitle %> ($<%= @product.price %>)',
-                amount: document.getElementById("product.price_in_centsß").value
+                amount: document.getElementById("product.price_in_cents").value
             });
             e.preventDefault();
            })

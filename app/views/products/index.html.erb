@@ -1,5 +1,5 @@
 <% content_for :head do %>
-<%= image_tag( 'header-image.jpg', alt: 'View all Courses' ) %>
+<%= image_tag( 'xxxxheader-image.jpg', alt: 'View all Courses' ) %>
 <% end %>
 
 <article id="details-article" class="col-sm-8">
@@ -9,10 +9,10 @@
 <section id="products">
  <% @products.each do |product| %>
  	<div class="product clearfix"
-   		<a href="<%=product_path (product) %>">
-   			<div class="product-image-container">
-			<img src= "<%= asset_path product.product_image  %>",	alt=" <%= product.title %> "
-   				<span class="product-price">$<%= product.price %></span>
+   		<a href="<%=product_path (product) %>">   			
+		<div class="product-image-container">
+				<img src= "<%= asset_path product.product_image  %>",	alt=" <%= product.title %> " 
+				<span class="product-price">$<%= product.price %></span>
 			</div>
    			 <p class="product-title"><%= product.title %></p>
    		</a>
