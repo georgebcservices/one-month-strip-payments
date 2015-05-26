@@ -7,11 +7,10 @@
             <h1 id="article-title"> <%= @product.title %> <span class="font-weight-light"><%= @product.subtitle %></span></h1>
             <h3><small>By <a href="#" data-toggle="modal" data-target="#author-modal"><%= @product.author %></a></small></h3>
 
-            <%= raw @product.description %>
+            <%= raw@product.description %>
             
         </article>
         <aside id="details-aside" class="col-sm-4">
-  <!-- <a id="btn-buy" href="receipt.html" class="btn btn-success btn-lg btn-block"><span class="glyphicon glyphicon-ok"></span>I want this!</a> -->
           <%= form_tag charges_path, id: 'chargeForm' do %>
             <script src="https://checkout.stripe.com/checkout.js"></script>
             <%= hidden_field_tag 'stripeToken' %>
@@ -64,8 +63,8 @@ Made by <a href="https://onemonth.com" target="_blank"><%= image_tag( 'one-month
       </div>
       <div class="modal-body clearfix">
             <div id="modal-left" class="pull-left">
-                <p><strong><%= raw @product.author %></strong></p>
-                <p><%= raw @product.author_description %>
+                <p><strong><%= raw@product.author %></strong></p>
+                <p><%= raw@product.author_description %>
             </div>
             <div id="modal-right" class="pull-right">
                 <%= image_tag( @product.author_image_file, alt: '@product.author' ) %>
