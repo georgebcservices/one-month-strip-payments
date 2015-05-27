@@ -3,6 +3,9 @@ source 'https://rubygems.org'
 # Require a specific ruby Version 
 ruby '2.2.2'
 
+# Add bscrypt for hashinf passwords
+gem 'bcrypt', '3.1.10'
+
 # For SSl testing
 gem 'thin'
 
@@ -10,7 +13,7 @@ gem 'thin'
 gem 'rails', '4.2.1'
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3', group: [:development, :test]
-#use postgres as the database in production
+# use postgres as the database in production
 gem 'pg', group: :production
 
 # Add 12 factor for Heroku
