@@ -1,6 +1,0 @@
-————
-
-thin start -p 3001 --ssl --ssl-key /Users/macbook/Desktop/onemonth/one_month_strip_payments/ssl/localhost.key --ssl-cert-file /Users/macbook/Desktop/onemonth/one_month_strip_payments/ssl/localhost.crt
-
-
-————
